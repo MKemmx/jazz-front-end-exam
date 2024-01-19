@@ -9,10 +9,6 @@ body {
   padding: 15px;
 }
 
-#sellerTable_wrapper {
-  overflow-x: scroll;
-}
-
 .seller_table_container {
   max-width: 1200px;
   margin-inline: auto;
@@ -139,4 +135,10 @@ body {
 #sellerTable_paginate .paginate_button:hover {
   background: #3a95f4 !important;
   color: #f6f9ff !important;
+}
+
+@media screen and (max-width: 1300px) {
+  #sellerTable_wrapper {
+    overflow-x: scroll;
+  }
 }
